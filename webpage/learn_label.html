@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习label标签功能属性</title>
+</head>
+<body>
+    <!-- 方法一：把label for属性中设置对应的id 属性值 -->
+    <!-- 方法二：直接用Lable标签，把内容直接包裹起来，然后把for属性删除就行 -->
+    性别：
+    <!-- 方法一 -->
+    <input type="radio" name="gender" id="nan"><label for="nan">男</label>
+    <!-- 方法二 -->
+    <label><input type="radio" name="gender">女</label>
+    <br>
+    <br>
+
+    <!-- 没有任何语义的标签div 和span，用于网页布局 -->
+    <div>这是div标签</div>
+    <div>biaoqian</div>
+    <span>这是span标签</span>
+    <!-- 网页只不认识多个空格，只认识一个 -->
+    steam字符实体&nbsp;&nbsp;&nbsp;&nbsp;应用
+</body>
+</html>
